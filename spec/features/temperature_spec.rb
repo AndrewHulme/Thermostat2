@@ -3,9 +3,9 @@ feature 'viewing the temperature' do
     visit('/')
   end
 
-  it 'says hello!' do
-    expect(page).to have_content "Hello"
-  end
+  # it 'says hello!' do
+  #   expect(page).to have_content "Hello"
+  # end
 
   # it 'is 20 by default' do
   #   expect(page.find('#temperature')).to have_content '20'
