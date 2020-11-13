@@ -19,11 +19,11 @@ body {
 .wrapper {
   background-color: #b8bdbc;
   padding: 40px;
-  margin: 150px;
+  margin: 100px;
 }
 
 #temperature {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 #current-temperature {
