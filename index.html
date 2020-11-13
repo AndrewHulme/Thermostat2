@@ -5,29 +5,32 @@
   <title>Thermostat</title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-  <section id="1">
-    <h1 id="temperature"></h1>
-      <p>
-        <button id="temperature-up">+</button>
-        <button id="temperature-down">-</button>
-        <button id="temperature-reset">reset</button><br>
-        power saving mode is: <span id="power-saving-status">on</span><br>
-        <button id="power-saving-mode-on">PSM on</button>
-        <button id="power-saving-mode-off">PSM off</button>
-      </p>
-    </h1>
-  </section>
 
-  <section id="2">
-    <h1 id="current-temp" >Current temperature: <span id="current-temperature"></span></h1>
-    <select id="current-city">
-      <option value="london">London</option>
-      <option value="new york">New York</option>
-      <option value="paris">Paris</option>
-      <option value="grantham">Grantham</option>
-    </select>
-  </section>
+<body>
+  <div class="wrapper">
+    <section id="1">
+      <h1 id="temperature"></h1>
+        <p>
+          <button id="temperature-up">+</button>
+          <button id="temperature-down">-</button>
+          <button id="temperature-reset">reset</button><br>
+          power saving mode is: <span id="power-saving-status">on</span><br>
+          <button id="power-saving-mode-on">PSM on</button>
+          <button id="power-saving-mode-off">PSM off</button>
+        </p>
+      </h1>
+    </section>
+
+    <section id="2">
+      <h1 id="current-temp" >Current temperature: <span id="current-temperature"></span></h1>
+      <select id="current-city">
+        <option value="london">London</option>
+        <option value="new york">New York</option>
+        <option value="paris">Paris</option>
+        <option value="grantham">Grantham</option>
+      </select>
+    </section>
+  </div>
 
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="src/thermostat.js"></script>
